@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!--
+      <link
+        href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700"
+        rel="stylesheet"
+      />
+    -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,700"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header role="banner">
+      <!-- Navigation Menu -->
+      <h1>Landing Page</h1>
+      <nav role="navigation" class="main-nav">
+        <button class="btn btn-nav" onclick="showOrHideNavbar()">&Xi;</button>
+        <ul class="collapse">
+          <li>
+            <a href="#" tabindex="0" accesskey="h"
+              ><i class="fas fa-home" aria-hidden="true"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#" tabindex="0" accesskey="a"
+              ><i class="fas fa-coffee" aria-hidden="true"></i>About Us</a
+            >
+          </li>
+          <li>
+            <a href="#" tabindex="0" accesskey="o"
+              ><i class="fas fa-user-tie" aria-hidden="true"></i>Our Team</a
+            >
+          </li>
+          <li>
+            <a href="#" tabindex="0" accesskey="s"
+              ><i class="fas fa-cogs" aria-hidden="true"></i>Services</a
+            >
+          </li>
+          <li>
+            <a href="#" tabindex="0" accesskey="c"
+              ><i class="fas fa-envelope" aria-hidden="true"></i>Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- End of Navigation Menu -->
+    </header>
+    <main>
+      <!-- Story Section -->
+      <section class="story" role="region">
+        <article class="story-container">
+          <h2>Our Story</h2>
+          <p tabindex="0">
+            <i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              quisquam provident pariatur, impedit ullam nulla enim id corporis
+              vitae quaerat veritatis nemo reiciendis dolor quidem quos iure
+              voluptatem consequuntur aspernatur sapiente? Beatae enim, dolorem
+              nobis architecto dolore quo, adipisci eveniet qui, doloribus
+              reiciendis rerum sunt! Quos, eos? Autem culpa dignissimos
+              voluptatem obcaecati maiores reiciendis quos ratione quidem
+              temporibus. Ipsam, qui! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Commodi fugit quam nihil. Aspernatur fugiat
+              laborum asperiores. Soluta magnam qui voluptatum. Placeat, dolor
+              perferendis rerum vel quaerat ducimus cupiditate iusto modi! Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Quidem ea
+              natus debitis soluta, rem quae saepe delectus temporibus. Iusto
+              corporis porro dicta quas quo ea incidunt natus. Cumque, quod
+              labore molestias nesciunt dignissimos reprehenderit laborum
+              pariatur ex earum neque quibusdam! Quo mollitia soluta voluptate
+              esse maxime totam in omnis sed! Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Inventore, illum itaque magnam,
+              adipisci a placeat consequuntur animi qui dolore nobis, nam
+              reprehenderit accusamus quis fugit ducimus error! Ullam, dolore
+              laboriosam, asperiores nulla ipsum debitis at incidunt non quod
+              officiis nemo eaque sapiente tenetur repellendus, ad veritatis
+              est. Esse mollitia dolor aperiam atque maiores officia, doloribus
+              ratione, debitis expedita sit nisi dolorem aut error culpa
+              officiis. Officia repellat est ipsam tempore animi eaque quos
+              sequi, perspiciatis obcaecati exercitationem autem molestiae
+              praesentium ducimus ratione tenetur minima accusamus saepe quia
+              recusandae quo! Adipisci, distinctio. Rem error repellat tempora
+              odit distinctio dolorem, maxime numquam. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Odit, consequatur ullam.
+              Quaerat repellat odit perferendis, soluta fugiat similique maiores
+              delectus architecto blanditiis, exercitationem ratione esse quis
+              officiis laborum aut doloribus quidem culpa sint ipsum dolorum
+              necessitatibus eos repudiandae non. Eos corporis necessitatibus
+              eius delectus est sequi cumque mollitia quia dignissimos!
+            </i>
+          </p>
+          <i class="fas fa-hand-point-up"></i>
+        </article>
+        <div class="story-images">
+          <div>
+            <img
+              src="images/stock-photo-1.jpeg"
+              alt="People working together"
+            />
+          </div>
+          <div>
+            <img
+              src="images/stock-photo-2.jpeg"
+              alt="People working together"
+            />
+          </div>
+          <div>
+            <img
+              src="images/stock-photo-3.jpeg"
+              alt="Guy writing to a laptop"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Staff Section -->
+      <section class="staff" role="region">
+        <h2>Our Team</h2>
+        <div class="cards">
+          <!-- Monica Santos Card -->
+          <article class="member-card">
+            <h3 class="name">Monica Santos</h3>
+            <div class="inner-card">
+              <img src="images/user-female.jpg" alt="Selfie of Monica Santos" />
+              <p class="role">Expert of Analytics</p>
+              <p class="bio" tabindex="0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Excepturi, dolorum totam! Ratione ab consequuntur, impedit fugit
+                accusantium quos blanditiis aut natus molestiae quo? Dolorem,
+                neque.
+              </p>
+              <div class="experience">
+                <p>Experience</p>
+                <p>7 Years</p>
+              </div>
+              <div class="socials">
+                <i
+                  class="fab fa-twitter"
+                  aria-hidden="false"
+                  title="Show Twitter page of Monica"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-instagram"
+                  aria-hidden="false"
+                  title="Show Instagram page of Monica"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-facebook"
+                  aria-hidden="false"
+                  title="Show Facebook page of Monica"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fas fa-at"
+                  aria-hidden="false"
+                  title="Send an email to Monica"
+                  role="button"
+                  tabindex="0"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <!-- Arthur Megan Card -->
+          <article class="member-card">
+            <h3 class="name">Arthur Megan</h3>
+            <div class="inner-card">
+              <img src="images/user-male.jpg" alt="Selfie of Arthur Megan" />
+              <p class="role">Expert of Marketing</p>
+              <p class="bio" tabindex="0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Excepturi, dolorum totam! Ratione ab consequuntur, impedit fugit
+                accusantium quos blanditiis aut natus molestiae quo? Dolorem,
+                neque.
+              </p>
+              <div class="experience">
+                <p>Experience</p>
+                <p>8 Years</p>
+              </div>
+              <div class="socials">
+                <i
+                  class="fab fa-twitter"
+                  aria-hidden="false"
+                  title="Show Twitter page of Arthur"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-instagram"
+                  aria-hidden="false"
+                  title="Show Instagram page of Arthur"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-facebook"
+                  aria-hidden="false"
+                  title="Show Facebook page of Arthur"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fas fa-at"
+                  aria-hidden="false"
+                  title="Send an email to Arthur"
+                  role="button"
+                  tabindex="0"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <!-- John Marton Card -->
+          <article class="member-card">
+            <h3 class="name">John Marton</h3>
+            <div class="inner-card">
+              <img src="images/user-male.jpg" alt="Selfie of John Marton" />
+              <p class="role">Expert of Development</p>
+              <p class="bio" tabindex="0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Excepturi, dolorum totam! Ratione ab consequuntur, impedit fugit
+                accusantium quos blanditiis aut natus molestiae quo? Dolorem,
+                neque.
+              </p>
+              <div class="experience">
+                <p>Experience</p>
+                <p>12 Years</p>
+              </div>
+              <div class="socials">
+                <i
+                  class="fab fa-twitter"
+                  aria-hidden="false"
+                  title="Show Twitter page of John"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-instagram"
+                  aria-hidden="false"
+                  title="Show Instagram page of John"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-facebook"
+                  aria-hidden="false"
+                  title="Show Facebook page of John"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fas fa-at"
+                  aria-hidden="false"
+                  title="Send an email to John"
+                  role="button"
+                  tabindex="0"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <!-- Jade Debota Card -->
+          <article class="member-card">
+            <h3 class="name">Jade Debota</h3>
+            <div class="inner-card">
+              <img src="images/user-female.jpg" alt="Selfie of Jade Debota" />
+              <p class="role">Expert of Support</p>
+              <p class="bio" tabindex="0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Excepturi, dolorum totam! Ratione ab consequuntur, impedit fugit
+                accusantium quos blanditiis aut natus molestiae quo? Dolorem,
+                neque.
+              </p>
+              <div class="experience">
+                <p>Experience</p>
+                <p>5 Years</p>
+              </div>
+              <div class="socials">
+                <i
+                  class="fab fa-twitter"
+                  aria-hidden="false"
+                  title="Show Twitter page of Jade"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-instagram"
+                  aria-hidden="false"
+                  title="Show Instagram page of Jade"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fab fa-facebook"
+                  aria-hidden="false"
+                  title="Show Facebook page of Jade"
+                  role="button"
+                  tabindex="0"
+                ></i>
+                <i
+                  class="fas fa-at"
+                  aria-hidden="false"
+                  title="Send an email to Jade"
+                  role="button"
+                  tabindex="0"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of the Staff cards -->
+        </div>
+      </section>
+      <!-- Services Container -->
+      <section class="services" role="region">
+        <h2>Services</h2>
+        <div class="services-container">
+          <!-- Box 1 \ Analytics -->
+          <article class="box box-1">
+            <div class="service-details">
+              <i class="fas fa-chart-pie icon-box" aria-hidden="true"></i>
+              <h3>Analytics</h3>
+              <p tabindex="0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt,
+                libero!
+              </p>
+              <button
+                href="#"
+                class="btn btn-details"
+                tabindex="0"
+                title="See more info about this service"
+              >
+                Details
+              </button>
+            </article>
+            <div class="hidden-details" aria-hidden="true" aria-live="off">
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed at
+                placeat delectus ab expedita tempora accusantium ex in nam
+                mollitia aliquam dicta sint, exercitationem, sunt earum
+                inventore perferendis non deleniti.
+              </p>
+              <p class="service-price">99$/mo</p>
+              <a
+                href="#"
+                class="btn btn-buy"
+                role="button"
+                tabindex="0"
+                title="Buy this Service"
+              >
+                Buy Now
+              </a>
+              <i
+                class="fas fa-times fa-2x btn-close"
+                role="button"
+                tabindex="0"
+                aria-hidden="false"
+              ></i>
+            </div>
+          </article>
+          <!-- Box 2 \ Marketing -->
+          <article class="box box-2">
+            <div class="service-details">
+              <i class="fas fa-globe icon-box" aria-hidden="true"></i>
+              <h3>Marketing</h3>
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                impedit quidem dolorem ad suscipit minus.
+              </p>
+              <button
+                href="#"
+                class="btn btn-details"
+                tabindex="0"
+                title="See more info about this service"
+              >
+                Details
+              </button>
+            </div>
+            <div class="hidden-details" aria-hidden="true" aria-live="off">
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed at
+                placeat delectus ab expedita tempora accusantium ex in nam
+                mollitia aliquam dicta sint, exercitationem, sunt earum
+                inventore perferendis non deleniti.
+              </p>
+              <p class="service-price">99$/mo</p>
+              <a
+                href="#"
+                class="btn btn-buy"
+                role="button"
+                tabindex="0"
+                title="Buy this Service"
+                >Buy Now</a
+              >
+              <i
+                class="fas fa-times fa-2x btn-close"
+                role="button"
+                tabindex="0"
+                aria-hidden="false"
+              ></i>
+            </div>
+          </article>
+          <!-- Box 3 \ Development -->
+          <article class="box box-3">
+            <div class="service-details">
+              <i class="fas fa-cogs icon-box" aria-hidden="true"></i>
+              <h3>Development</h3>
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                architecto assumenda modi explicabo rerum doloribus. Impedit,
+                architecto quidem! Nobis, tempore.
+              </p>
+              <button
+                href="#"
+                class="btn btn-details"
+                role="button"
+                title="See more info about this service"
+              >
+                Details
+              </button>
+            </div>
+            <div class="hidden-details" aria-hidden="true" aria-live="off">
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed at
+                placeat delectus ab expedita tempora accusantium ex in nam
+                mollitia aliquam dicta sint, exercitationem, sunt earum
+                inventore perferendis non deleniti.
+              </p>
+              <p class="service-price">99$/mo</p>
+              <a
+                href="#"
+                class="btn btn-buy"
+                role="button"
+                tabindex="0"
+                title="Buy this Service"
+                >Buy Now</a
+              >
+              <i
+                class="fas fa-times fa-2x btn-close"
+                role="button"
+                tabindex="0"
+                aria-hidden="false"
+              ></i>
+            </div>
+          </article>
+          <!-- Box 4 \ Support -->
+          <article class="box box-4">
+            <div class="service-details">
+              <i class="fas fa-users icon-box" aria-hidden="true"></i>
+              <h3>Support</h3>
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione, quibusdam corrupti assumenda nemo hic velit!
+              </p>
+              <button
+                href="#"
+                class="btn btn-details"
+                role="button"
+                title="See more info about this service"
+              >
+                Details
+              </button>
+            </div>
+            <div class="hidden-details" aria-hidden="true" aria-live="off">
+              <p tabindex="0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed at
+                placeat delectus ab expedita tempora accusantium ex in nam
+                mollitia aliquam dicta sint, exercitationem, sunt earum
+                inventore perferendis non deleniti.
+              </p>
+              <p class="service-price">99$/mo</p>
+              <a
+                href="#"
+                class="btn btn-buy"
+                role="button"
+                tabindex="0"
+                title="Buy this Service"
+                >Buy Now</a
+              >
+              <i
+                class="fas fa-times fa-2x btn-close"
+                role="button"
+                tabindex="0"
+                aria-hidden="false"
+              ></i>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- End of Services Section -->
+      <!-- Contacts Section -->
+      <section
+        class="contacts"
+        role="region"
+        aria-label="Our social link & Email address"
+      >
+        <h2>
+          Contacts & <br />
+          Social Media
+        </h2>
+        <i class="fas fa-link" aria-hidden="true"></i>
+        <div class="contacts-container" role="row">
+          <!-- Twitter -->
+          <div class="twitter">
+            <div class="social-icon">
+              <i
+                class="fab fa-twitter"
+                aria-hidden="false"
+                title="Show Twitter page link"
+                role="button"
+                tabindex="0"
+              ></i>
+            </div>
+            <div class="twitter-hidden contact-link not-visible">
+              <a href="" data-social="twitter">Twitter</a>
+            </div>
+          </div>
+          <!-- Facebook -->
+          <div class="facebook">
+            <div class="social-icon">
+              <i
+                class="fab fa-facebook"
+                aria-hidden="false"
+                title="Show Facebook page link"
+                role="button"
+                tabindex="0"
+              ></i>
+            </div>
+            <div class="facebook-hidden contact-link not-visible">
+              <a href="" data-social="facebook">Facebook</a>
+            </div>
+          </div>
+          <!-- Instagram -->
+          <div class="instagram">
+            <div class="social-icon">
+              <i
+                class="fab fa-instagram"
+                aria-hidden="false"
+                title="Show Instagram page link"
+                role="button"
+                tabindex="0"
+              ></i>
+            </div>
+            <div class="instagram-hidden contact-link not-visible">
+              <a href="#" data-social="instagram">instagram</a>
+            </div>
+          </div>
+          <!-- Email -->
+          <div class="email">
+            <div class="social-icon">
+              <i
+                class="fas fa-at"
+                aria-hidden="false"
+                title="Show the Email address"
+                role="button"
+                tabindex="0"
+              ></i>
+            </div>
+            <div class="email-hidden contact-link not-visible">
+              <a href="" data-social="mail">Email</a>
+            </div>
+          </div>
+        </div>
+        <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+      </section>
+      <!-- End of Contacts Section -->
+    </main>
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <nav role="navigation" class="footer-nav">
+        <ul>
+          <li><a href="" tabindex="0">Home</a></li>
+          <li><a href="" tabindex="0">About Us</a></li>
+          <li><a href="" tabindex="0">Our Team</a></li>
+          <li><a href="" tabindex="0">Services</a></li>
+          <li><a href="" tabindex="0">Contacts</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <p>
+          &copy;reated by<br />
+          <b>Andrea</b>
+        </p>
+      </aside>
+    </footer>
+    <!-- Not finished -->
+    <div class="buy-service-menu" aria-hidden="true">
+      <i
+        class="fas fa-times fa-2x btn-close"
+        role="button"
+        tabindex="0"
+        aria-hidden="false"
+        onclick="closeBuyMenu()"
+      ></i>
+      <form action="">
+        <div class="personal-info">
+          <label for="name">Your Name:</label> <input type="text" id="name" />
+          <label for="surname">Your Surname:</label>
+          <input type="text" id="surname" /> <label for="age">Age:</label>
+          <input type="text" id="age" /> <label for="email">Your Mail:</label>
+          <input type="email" id="email" />
+          <div class="gender">
+            <label for="male"
+              ><input type="radio" name="gender" id="male" />Male</label
+            >
+            <label for="female"
+              ><input type="radio" name="gender" id="female" />Female</label
+            >
+          </div>
+        </div>
+        <div class="extras">
+          <div>
+            <label for="extras-1"
+              ><input type="checkbox" name="extras-1" id="extras-1" />Extra 1
+              (+1.99/mo)</label
+            >
+          </div>
+          <div>
+            <label for="extras-2"
+              ><input type="checkbox" name="extras-2" id="extras-3" />Extra 2
+              (+2.99/mo)</label
+            >
+          </div>
+          <div>
+            <label for="extras-3"
+              ><input type="checkbox" name="extras-3" id="extras-3" />Extra 3
+              (+3.99/mo)</label
+            >
+          </div>
+        </div>
+        <div class="buy">
+          <button type="submit" class="btn">Buy</button>
+          <p class="final-price">
+            Total: <span><b>99$</b></span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

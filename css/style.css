@@ -768,7 +768,7 @@ footer aside p {
   }
 
   .staff .member-card {
-    flex-basis: 48%;
+    flex-basis: 45%;
   }
 
   /* Services Section */
@@ -935,18 +935,16 @@ footer aside p {
   .staff .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .staff .member-card {
-    flex-basis: 20%;
+    flex-basis: 22%;
   }
 
   /* Services Section */
   .services .services-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .services .box {

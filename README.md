@@ -4,4 +4,4 @@ This is the first website I ever made, with only javascript, html5, and CSS. Is 
 
 Developed 3-4 years ago.
 
-LIVE: https://majorandrea.github.io/landing-page/
+LIVE: https://majorandrea.github.io/Landing-Page/
